@@ -1,0 +1,17 @@
+services:
+  build-android:
+    container_name: mamut-tv-container-android
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./android:/app
+      - ./:/app/app/build/outputs/apk/release
+    working_dir: /app
+    command:
+      - sh
+      - -c
+      - |
+        dos2unix gradlew
+        chmod +x gradlew
+        ./gradlew assembleRelease
