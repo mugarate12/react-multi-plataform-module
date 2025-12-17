@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2.0,
+  "id": "react-app",
+  "name": "REACT",
+  "author": "Mateus Cardoso dos Santos",
+  "version": "1.0",
+  "namespace": "ReactModule",
+  "description": "Aplicação react exemplo",
+  "actions": {
+    "react.module": {
+      "class": "ReactModule",
+      "view": "react.module"
+    }
+  },
+  "assets": {
+    "js": [],
+    "css": []
+  }
+}

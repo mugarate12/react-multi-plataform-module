@@ -27,7 +27,7 @@ function App() {
 					className="h-[20vmin] pointer-events-none animate-[spin_20s_linear_infinite]"
 					alt="logo"
 				/>
-				<h1 className="text-white text-2xl md:text-6xl">
+				<h1 className="mb-6 text-white text-2xl md:text-6xl">
 					Olá, sou um app react
 				</h1>
 
