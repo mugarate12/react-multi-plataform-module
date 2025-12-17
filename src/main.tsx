@@ -1,5 +1,9 @@
 import { init } from "@noriginmedia/norigin-spatial-navigation";
-import { createRouter, RouterProvider } from "@tanstack/react-router";
+import {
+	createHashHistory,
+	createRouter,
+	RouterProvider,
+} from "@tanstack/react-router";
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 // Import the generated route tree
@@ -20,6 +24,7 @@ const router = createRouter({
 	scrollRestoration: true,
 	defaultStructuralSharing: true,
 	defaultPreloadStaleTime: 0,
+	history: createHashHistory(),
 });
 
 // Register the router instance for type safety
