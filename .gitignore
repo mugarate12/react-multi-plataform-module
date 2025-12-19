@@ -4,9 +4,9 @@ dist
 dist-ssr
 *.local
 count.txt
-.env
 .nitro
 .tanstack
 .wrangler
 
 android/app/src/main/assets/*
+config.bat

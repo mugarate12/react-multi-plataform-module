@@ -1,10 +1,10 @@
 <h1 align="center">React + Android + TV + Zabbix Módulo</h1>
 
-<img src="https://img.shields.io/badge/React-18.2.0-blue.svg" alt="React" />
-<img src="https://img.shields.io/badge/Android-12-green.svg" alt="Android" />
-<img src="https://img.shields.io/badge/TV-Compatible-yellow.svg" alt="TV Compatible" />
-<img src="https://img.shields.io/badge/Zabbix-Module-red.svg" alt="Zabbix Module" />
-<img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Android](https://img.shields.io/badge/Android-12-green.svg)](https://developer.android.com/)
+[![TV Compatible](https://img.shields.io/badge/TV-Compatible-yellow.svg)](https://developer.android.com/docs)
+[![Zabbix Module](https://img.shields.io/badge/Zabbix-Module-red.svg)](https://www.zabbix.com/documentation/current/en/devel/modules)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <img src="./docs/images/app-rodando-no-zabbix.png" alt="app rodando no zabbix" />
 <img src="./docs/images/exemplo da execução.jpeg" alt="exemplo de execução" />
