@@ -6,8 +6,8 @@
 <img src="https://img.shields.io/badge/Zabbix-Module-red.svg" alt="Zabbix Module" />
 <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
 
-<img src="./docs/images/app-rodando-no-zabbix.png" alt="License" />
-<img src="./docs/images/exemplo da execução.jpeg" alt="License" />
+<img src="./docs/images/app-rodando-no-zabbix.png" alt="app rodando no zabbix" />
+<img src="./docs/images/exemplo da execução.jpeg" alt="exemplo de execução" />
 
 ## Sobre
 
