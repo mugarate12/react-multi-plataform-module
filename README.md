@@ -41,6 +41,30 @@ Dai, podemos usar o nosso site React em um módulo Zabbix. O Zabbix permite a cr
 - **Flexibilidade**: Facilidade para adicionar novas funcionalidades que funcionem em todas as plataformas.
 - **Integração com Zabbix**: Capacidade de rodar a aplicação React como um módulo Zabbix, aproveitando a infraestrutura existente.
 
-## Conclusão
+## Conclusão sobre o Projeto
 
 Esse projeto demonstra como é possível usar o poder do React para criar aplicações que funcionam perfeitamente em múltiplas plataformas, incluindo Android (móveis e TVs) e Zabbix, tudo isso com uma única base de código. Isso não só simplifica o desenvolvimento e a manutenção, mas também garante uma experiência de usuário consistente e de alta qualidade.
+
+## Ambiente Android
+
+### Configurando
+
+Para preparar o ambiente Android, siga os passos abaixo:
+
+1. **Instale o Android Studio**: Baixe e instale o [Android Studio](https://developer.android.com/studio) em sua máquina.
+2. **Configure o SDK do Android**: Abra o Android Studio e configure o SDK do Android, certificando-se de incluir as versões necessárias para desenvolvimento móvel e TV.
+3. **Use os comandos abaixo**:
+
+```
+make build-android
+```
+
+Se você estiver usando `powershell`, utilize o comando abaixo:
+
+```
+make build-android-powershell
+```
+
+Isso irá construir o aplicativo Android e copiar os arquivos necessários para o diretório apropriado.
+
+4. **Usando o Android Studio**: Abra o projeto no Android Studio, conecte um dispositivo ou inicie um emulador, e execute o aplicativo diretamente do Android Studio. Você também pode gerar um APK para distribuição.

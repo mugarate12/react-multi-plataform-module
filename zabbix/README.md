@@ -40,6 +40,20 @@ Créditos ao `Thiago Santos`, pela configuração base do Zabbix via Docker-Comp
 
    <img src="./../docs/images/onde-o-modulo-se-encontra.png" alt="onde o módulo se encontra" />
 
+7. Crie um arquivo `.env` na raiz do diretório do módulo (neste projeto, a pasta zabbix-module) com as variáveis de ambiente necessárias para o funcionamento do módulo. Neste caso, a URL do app React que será carregado no módulo e rodando localmente, como por exemplo, `http://localhost:3000`.
+
+> Você encontrará um arquivo `.env.example` no lugar para referência.
+
+```env
+VITE_IFRAME_URL=http://seu-endereco-do-app-react
+```
+
+8. Certifique-se de que o app React está rodando localmente (por padrão na porta 3000) para que o módulo consiga carregar o conteúdo corretamente.
+
+9. Pronto! Agora você tem um ambiente Zabbix local com o módulo instalado e configurado para desenvolvimento e testes. Aproveite os benefícios de desenvolver seu módulo em um ambiente controlado antes de implantá-lo em produção.
+
+> Detalhe: seu app terá auto refresh ao salvar mudanças, graças ao `vite` rodando em modo de desenvolvimento mesmo dentro do zabbix.
+
 ## Em Produção
 
 > Vamos assumir que você já tenha um servidor Zabbix rodando em produção.
