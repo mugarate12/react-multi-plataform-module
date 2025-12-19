@@ -15,6 +15,13 @@ Esse projeto consiste em usar uma única base de código `React` para criar apli
 
 Tudo isso com uma única manutenção de código, aproveitando o poder do `React` e suas bibliotecas associadas e tecnologias modenas como `tailwindcss` para estilização e `tanstack query` para gerenciamento de estado e dados.
 
+## Créditos importantes
+
+Créditos ao `Thiago Santos`, pela configuração base do Zabbix via Docker-Compose: [Repositório](https://github.com/zthiagosantos/zbx-server-docker). A partir dele foi possível montar o ambiente de desenvolvimento para o módulo Zabbix.
+
+- [GitHub - Thiago Santos](https://github.com/zthiagosantos)
+- [Linkedin - Thiago Santos](https://www.linkedin.com/in/thiago-souza-694057212)
+
 ## Como funciona?
 
 Com React, nosso primeiro passo é escrever nosso sistema normalmente fazendo uso de bibliotecas modernas como `tailwindcss` para estilização e `tanstack query` para gerenciamento de estado e dados.
