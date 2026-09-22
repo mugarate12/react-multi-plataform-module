@@ -9,4 +9,4 @@ count.txt
 .wrangler
 
 android/app/src/main/assets/*
-config.bat
+.env
